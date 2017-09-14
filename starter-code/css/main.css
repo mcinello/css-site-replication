@@ -7,6 +7,7 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: #fff url("../images/bgtile.png") repeat-x;
 }
 
 
@@ -16,7 +17,6 @@ body {
 {
   display: block;
   position: relative;
-  background-color: #1c5380;
   height: 300px;
   width: 100%;
 }
@@ -36,7 +36,13 @@ div.container2 img[src="images/frame.png"]
 {
   display: inline-block;
   float:right;
+}
 
+article
+{
+  display: inline-block;
+  position: absolute;
+  width: 47%;
 }
 
 
@@ -47,6 +53,7 @@ footer
 {
   text-transform: uppercase;
   overflow: hidden;
+  clear: both;
 }
 
 footer p
