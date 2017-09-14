@@ -8,3 +8,43 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+
+/*title*/
+
+.container1
+{
+  display: block;
+  background-color: #1c5380;
+  height: 300px;
+}
+
+/*footer*/
+
+footer
+{
+  text-transform: uppercase;
+  overflow: hidden;
+}
+
+footer p
+{
+display: inline-block;
+position: relative;
+float: right;
+right: 0;
+bottom: 15px;
+}
+
+footer nav
+{
+  display: inline-block;
+  float: left;
+  font-weight: bold;
+}
+
+a
+{
+  text-decoration: none;
+  color: #1c5380;
+}
