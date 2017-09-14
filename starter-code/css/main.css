@@ -27,10 +27,19 @@ div.container2 img[src="images/frame.png"]
 {
   position: relative;
   float: right;
-  bottom: 150px;
+  bottom: 70px;
   right: 30px;
 
 }
+
+.container2
+{
+  display: inline-block;
+  float:right;
+
+}
+
+
 
 /*footer*/
 
